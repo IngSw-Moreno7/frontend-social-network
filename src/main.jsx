@@ -1,7 +1,7 @@
 import ReactDOM from 'react-dom/client';
 import App from './App.jsx';
 
-// Importar assets "RECURSO"(hojas de estilo, imágens, fuentes, etc.)
+// Importar assets "RECURSO"(hojas de estilo, imágenes, fuentes, etc.)
 import './assets/fonts/fontawesome-free-6.1.2-web/css/all.css';
 import './assets/css/normalize.css';
 import './assets/css/styles.css';
@@ -12,4 +12,4 @@ render(
 
   <App />
 
-);
+)

@@ -1,11 +1,12 @@
+import { Routing } from './router/Routing';
 
 function App() {
-
   return (
-    <>
-      <h1>Proyecto RED SOCIAL: La Tribu</h1>
-    </>
+    <div className="layout">
+      {/* Cargamos toda la configuración de rutas */}
+      <Routing />
+    </div>
   )
 }
 
-export default App
+export default App;
