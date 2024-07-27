@@ -8,9 +8,9 @@ export function Error404() {
       <div className="content">
         <img src={image} className="image" alt="404 Error" />
         <div className="text-content">
-          <h1 className="title">Algo no salió bien...</h1>
+          <h1 className="title">¡Oops! Página no encontrada.</h1>
           <p className="text">
-            La página que intenta abrir no existe. Puede que haya escrito mal la dirección o que la página se haya movido a otra URL. Si cree que se trata de un error, póngase en contacto con servicio técnico al correo support@gmail.com
+          Lo sentimos, pero la página que estás buscando no se encuentra en nuestro sitio.
           </p>
           {/* Utiliza Link para enlazar al inicio */}
           <Link to="/" className="button">Volver a la página de inicio</Link>
