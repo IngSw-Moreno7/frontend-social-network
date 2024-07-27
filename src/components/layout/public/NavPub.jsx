@@ -1,9 +1,9 @@
-import { NavLink } from 'react-router-dom';
+import { NavLink } from "react-router-dom"
 
 export const NavPub = () => {
   return (
     <nav className="navbar__container-lists">
-      
+
       <ul className="container-lists__menu-list">
         <li className="menu-list__item">
           <NavLink to="/login" className="menu-list__link">
@@ -19,7 +19,7 @@ export const NavPub = () => {
           </NavLink>
         </li>
       </ul>
-      
+
     </nav>
   )
 }

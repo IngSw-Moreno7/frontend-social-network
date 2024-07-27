@@ -1,24 +1,16 @@
-import { Navigate, Outlet } from "react-router-dom";
-import { HeaderPub } from "./HeaderPub";
-import useAuth from '../../../hooks/useAuth';
+import { Outlet } from 'react-router-dom';
+import { HeaderPub } from './HeaderPub';
 
 export const PublicLayout = () => {
-
-  const { auth } = useAuth();
-
   return (
     <>
-      {/* Cabecera y Navegación Pública*/}
+      {/* LAYOUT */}
       <HeaderPub />
 
-      {/* Contenido Principal */}
-      <section className='layout__content'>
-        {!auth._id ?
-            <Outlet />
-          :
-            <Navigate to="/rsocial" />
-        }
+      {/* Contenido principal */}
+      <section className="layout__content">
+        <Outlet />
       </section>
     </>
-  )
-}
+  );
+};
